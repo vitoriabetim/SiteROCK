@@ -1,41 +1,73 @@
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 30px;
-    margin: 10px 0;
-  }
-  
-  p {
-    font-size: 16px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    font-size: 14px;
-  }
-  
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  max-width: 200px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+header p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.skull-img {
+  width: 100px;
+}
+
+.bands-section {
+  padding: 20px;
+}
+
+.bands-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bands-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bands-list li {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.bands-list li a {
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.bands-list li a img {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+}
